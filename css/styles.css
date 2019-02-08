@@ -39,14 +39,35 @@ h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, button{ margin: 0; paddi
 
 h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
-h1,h2,h3{ font-family: 'Poppins', cursive; }
+h1{ font-family: 'Playfair Display SC', serif; }
+h2,h4{ font-family: 'Niramit', sans-serif; }
+h3 {font-family: 'Niramit', sans-serif; color: white; padding: 5px}
 
+.summary{
+	font-family: 'Niramit', sans-serif;
+	font-size: 1em;
+	background: rgb(226, 218, 218);
+}
+
+.tag{
+	font-family: 'Niramit', sans-serif;
+	font-size: 1em;
+	position: absolute;
+    color: white;
+    background-color: #116b6e;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    padding: 5px 10px 5px 10px;
+    line-height: auto;
+    bottom: 0px
+}
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #777; }
 
-h1{ font-size: 4em; line-height: 1; }
-h2{ font-size: 2.2em; line-height: 1.1; }
-h3{ font-size: 1.8em; }
-h4{ font-size: 1.3em; }
+h1{ font-size: 2.5em; line-height: 1; }
+h2{ font-size: 1.5em; line-height: 2; color: rgba(0, 128, 128, 0.753) }
+h3{ font-size: 1.8em; background: #FFA804; text-align: center; }
+h4{ font-size: 2.0em; line-height: 2; }
 h5{ font-size: 1em; }
 h6{ font-size: .9em; letter-spacing: 1px; }
 
